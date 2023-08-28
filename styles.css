@@ -1,0 +1,1020 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+.row {
+    margin: 0px;
+    width: 100%;
+  }
+
+/* Navbar */
+
+.logoGC {
+    width: 3rem;
+}
+
+.logoIG {
+    width: 1.8rem;
+}
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+/* Fin del navbar */
+
+
+/* Header */
+
+.container_header {
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Fin clase header */
+
+/* Header index */
+
+#img_header_index {
+    background-image: url(./imagenes/home-header.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.trabajamos h1 {
+    font-size: 3.8rem;
+}
+
+.container_titulo {
+    margin-bottom: 2.5rem;
+    width: 30%;
+    color: white;
+    background-color: rgb(32, 145, 51, 0.7);
+    padding-left: 2.5rem;
+    font-size: 1.5rem;
+   margin-left: 3rem;
+}
+
+.container_titulo p {
+    margin-left: 3.5rem;
+}
+
+.container_cada_ninio {
+    display: flex;
+    justify-content: center;
+}
+
+.container_cada_ninio h1 {
+    color: rgb(60, 204, 60);
+    font-size: 2.8rem;
+}
+
+.container_titulo_y_estadisti {
+    text-align: center;
+    padding: 0 7rem 0 7rem;
+    margin-top: 5rem;
+}
+
+.cada_ninio {
+    background-color:rgb(60, 204, 60) ;
+    color: white;
+}
+
+
+.estadisticas {
+    display: flex;
+    gap: 5rem;
+    text-align: justify;
+    margin-top: 3rem;
+    font-size: 1.2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.numero {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.lineaNegra {
+    background-color: black;
+    height: 1px;
+    margin-top: 2rem;
+}
+
+/* Fin del header index */
+
+
+/* Section texto */
+
+.container_explicacion {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+
+.container_txtExplicacion {
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+.container_txtExplicacion p {
+    margin-bottom: 0;
+    background-color: rgb(68, 133, 231) ;
+    color: white;
+    padding: 2rem;
+}
+
+.subtitulo_ejes {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    padding: 1rem;
+    max-width: 63%;
+    text-align: center;
+    margin:auto;
+    margin-top: 4rem;
+    border-radius: 15px;
+    font-size: 2.2rem;
+}
+
+.subtitulo_ejes p {
+    background-color: white;
+    color: rgb(60, 204, 60);
+}
+
+/* Fin section texto */
+
+
+/* Section ejes */
+
+.container_cards {
+    display: flex;
+    justify-content: center;
+}
+
+.container_ejes {
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    width: 65%;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+ 
+}
+
+.container_ejes h4 {
+    margin-top: 1rem;
+}
+
+
+.img_eje {
+    width: 13rem;
+}
+
+/* Fin section ejes */
+
+/* Video  */
+
+.container_video {
+    text-align: center;
+    margin-top: 5.5rem;
+    margin-bottom: 1rem;
+}
+
+.proyectoGc {
+    margin-bottom: 2rem;
+}
+
+.container_video h3 {
+    font-size: 3.3rem;
+}
+
+/* Fin video */
+
+@media (max-width: 600px) {
+    .trabajamos h1 {
+        font-size: 2.8rem;
+    }
+
+    .container_titulo {
+        width: 60%;
+    }
+
+    .container_titulo p {
+        margin-left: 1.1rem;
+    }
+
+    .container_txtExplicacion {
+        font-size: 1.1rem;
+    }
+
+    .container_cada_ninio h1 {
+        font-size: 1.5rem;
+    }
+
+    .numero {
+        font-size: 1.5rem;
+    }
+
+    .estadisticas {
+        font-size: 1rem;
+    }
+
+    .container_ejes {
+        justify-content:center;
+    }
+    
+    iframe {
+        width: 32rem;
+    }
+}
+
+
+/* Header quienes somos */
+
+.container_header {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#header_img_qs {
+    background-image: url(./imagenes/quienessomos_header.jpg);
+}
+
+.container_titulo_qs {
+    text-align: center;
+    margin-left: 1rem;
+}
+
+.Mision {
+    color: white;
+}
+
+#ntra_mision {
+    width: 33rem;
+}
+
+
+.conteiner_fundadora{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.img_fundadora {
+    width: 38rem;
+    height: 28rem;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+    border: 3px solid rgb(89, 201, 107);
+    border-radius: 10px;
+}
+
+.div_fundadora {
+    display: block;
+    text-align: center;
+    margin-right: 3rem;
+    margin-top: 3rem;
+}
+
+.titulo_fundadora {
+    font-size: 3rem;
+}
+
+.texto_fundadora {
+    margin-right: 2rem;
+
+}
+
+.imgn_titulo {
+    width: 16rem;
+    height: 2rem;
+    margin-bottom: 2rem;
+}
+
+#container_txt_qs {
+    background-color: rgb(68, 133, 231);
+    color: white;
+    padding: 1rem;
+    
+}
+
+/* Fin header quienes somos */
+
+/* Titulo nuestros valores */
+
+.container_ntrosValores {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.container_titulo_ntrosV {
+    text-align: center;
+    width: 80%;
+    
+}
+
+.container_titulo_ntrosV h3 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+.linea_verde {
+    width: 20rem;
+    height: 2rem;
+}
+
+/* Fin titulo nuestros valores */
+
+/* Valores   */
+
+.valores_container {
+   display: flex;
+   text-align: center;
+   padding: 0 10rem 0 10rem;
+}
+
+
+.prueba {
+    display: flex;
+    justify-content: center;
+}
+
+.container_valores {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    text-align: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.titulo_valores {
+    background-color: rgb(44, 168, 44);
+    color: white;
+    width: 20rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.1rem;
+}
+
+.garabatos_valo {
+    width: 7rem;
+}
+
+/* Fin valores */
+ 
+@media (max-width: 600px)  {
+    .conteiner_fundadora {
+        display: flex;
+        text-align: center;
+        margin: 0;
+        flex-direction: column-reverse;
+    }
+
+    .div_fundadora {
+        margin-top: 3rem;
+    }
+
+    .img_fundadora {
+        width: 28rem;
+        height: 20rem;
+        margin:0;
+        margin-bottom: 2rem;
+    }
+
+    .titulo_fundadora {
+        font-size: 3rem;
+        margin-left: 1.4rem;
+
+    }
+    .texto_fundadora {
+        padding-left: 3rem;
+        margin-bottom: 3rem;
+        text-align: justify;
+    }
+
+    .container_valores {
+        display: block;
+    }
+
+    .card_valo {
+        margin-bottom: 3rem;
+    }
+}
+
+
+/* Header proyecto */
+
+#header_img_py {
+    background-image: url(/imagenes/proyecto-header.jpg);
+}
+
+/* Fin header proyecto */
+
+/* Pagina proyecto */
+
+.container_pilares {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.container_pilares h2 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+.container_pilares img {
+    width: 28rem;
+    height: 3rem;
+}
+
+.container_proyecto_cards {
+    display: flex;
+    margin: 2rem 0 2rem 0;
+}
+
+.card_proyecto{
+    display: flex;
+    max-width: 80%;
+    padding: 1rem;
+    align-items: center;
+    background-color: rgba(60, 206, 60, 0.938);
+}
+
+.imgs_proyecto {
+    width: 25rem;
+    border: 1px solid rgb(33, 125, 230);
+}
+
+.txt_proyecto {
+    margin-left: 1.5rem;
+    color: white;
+}
+
+.txt_proyecto p {
+    font-size: 1.2rem;
+}
+
+#eval_segui {
+    display: flex;
+    justify-content: end;
+}
+
+#txt_evalua {
+    text-align: end;
+    margin-right: 2rem;
+}
+
+#card_eva {
+    background-color: rgb(71, 107, 184);
+}
+
+#img_eva {
+    border: 1px green solid;
+}
+
+@media (max-width: 600px) { 
+
+    .card_proyecto {
+        max-width: 88%;
+    }
+
+   
+
+    .imgs_proyecto {
+        width: 15rem;
+    }
+
+    .txt_proyecto {
+        font-size: 0.8rem;
+    }
+
+    .container_pilares h2 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    .container_pilares img {
+        width: 20rem;
+        height: 2rem;
+    }
+
+}
+
+
+/* Fin pagina proyecto */
+
+ 
+
+/* Página actividades */
+
+.container_act {
+    margin-bottom: 2rem;
+    text-align: center;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+.container_act h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+    
+}
+
+.container_act p {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    background-color: rgb(68, 133, 231);
+    color: white;
+}
+
+.linea_ver {
+    width: 26rem;
+    height: 2.5rem;
+    margin-left: 1.5em;
+    margin-bottom: 1.5rem;
+}
+
+
+.container_activida {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    text-align: center;
+    justify-content: center;
+    gap: 5rem;
+    margin-bottom: 3rem;
+}
+
+.imgs_activida {
+    background-image: url(/imagenes/evaluacion-y-seg.jpg);
+    width: 30rem;
+    height: 25rem;
+    border-radius: 10px;
+}
+
+#activi_img2 {
+    background-image: url(/imagenes/saltando-soga.jpg);
+}
+
+#activi_img3 {
+    background-image: url(/imagenes/deportes.jpg);
+}
+
+#activi_img4 {
+    background-image: url(/imagenes/merienda.jpg);
+}
+
+.imgs_activida:hover {
+    transform: scale(1.1);
+}
+
+.fondo_negr {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.fondo_negr h3 {
+    color: white;
+}
+
+
+@media (max-width: 600px) { 
+
+    .container_activida {
+        display: block;
+        justify-content: center;
+    }
+
+    .centrar_activi {
+        display: flex;
+        justify-content: center;
+    }
+
+    .actividades_p {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .actividades_p p {
+        font-size: 1.2rem;
+        padding: 0.5rem;
+    }
+
+
+    .imgs_activida {
+        margin-bottom: 2rem;
+        width: 27rem;
+        height: 20rem;
+    }
+
+    .linea_ver {
+        width: 20rem;
+        height: 2.5rem;
+    }
+
+    .container_act h1 {
+        font-size: 2.5rem;
+    }
+
+    .container_act {
+        padding: 0;
+    }
+}
+
+
+/* Fin página actividades*/
+
+/* Inscripciones  */
+
+#header_img_inscri {
+    background-image: url(/imagenes/nene-estudiando.jpg);
+}
+
+#inscri_header {
+    width: 38rem;
+}
+
+.txt_inscri {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.container_btn {
+    margin-left: 7rem;
+}
+
+
+.inscripciones {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: rgb(18, 122, 36);
+}
+
+.inscripciones h2 {
+    color: white;
+    background-color: green;
+    max-width: 35rem;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.container_main {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+main {
+    display: flex;
+}
+
+#gara_img {
+    width: 5rem;
+}
+
+.container_garayTXT {
+    display: flex;
+    margin-left: 2rem;
+}
+
+.container_garayTXT p {
+    font-size: 1.3rem;
+}
+
+.txt_formulario {
+    width: 60%;
+}
+
+.container_form_ins {
+    margin-left: 2rem;
+}
+
+
+@media (max-width: 600px) { 
+
+    .container_header {
+        height: 300px;
+    }
+
+    #inscri_header {
+        width: 27rem ;
+    }
+
+    .container_titulo {
+        margin-bottom: 0.5rem;
+        padding-left: 1rem;
+    }
+
+    .txt_inscri p {
+        font-size: 1.5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .container_btn {
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .form-control {
+        width: 25rem;
+    }
+
+    .form-select {
+        width: 25rem;
+    }
+
+    .container_form_ins {
+        margin-left: 6rem;
+        margin-top: 2rem;
+    }
+
+    .container_garayTXT {
+        margin-left: 4rem;
+    }
+
+    .txt_formulario {
+        margin-right: 3rem;
+    }
+}
+
+/* Fin pag inscripciones */
+
+/* Pagina colaborar */
+
+#header_img_colab {
+    background-image: url(/imagenes/ninos-tomados-de-las-manos-opt.jpg);
+}
+
+#colaborar_header {
+    width: 45rem;
+}
+
+.mira {
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.mira h2 {
+    font-size: 3rem;
+}
+
+.section_icons_donaciones {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.iconos_dona {
+    width: 10rem;
+}
+
+.container_icons_donaciones {
+    display: flex;
+    padding: 0 6rem 0 6rem;
+    gap: 5rem;
+    margin-bottom: 3rem;
+}
+
+.container_cards_dona {
+    text-align: center;
+}
+
+.centrar_div {
+    text-align: center;
+}
+
+.container_cards_dona p {
+    text-align: justify;
+}
+
+.container_transferencias {
+    display: flex;
+    align-items: center;
+    padding-top: 3rem ;
+}
+
+
+.container_alias {
+    text-align: center;
+    
+}
+
+#alias {
+    font-size: 2.5rem;
+    background-color: rgb(39, 168, 39);
+    color: white;
+    border-radius: 15px;
+    width: 23rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+    padding-bottom: 1px;
+}
+
+.container_alias h3 {
+    font-size: 2.8rem;
+}
+
+.tamanio {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+
+.colaborarF_conteiner {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.titulo_form {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.titulo_form h3 {
+    font-size: 2.8rem;
+}
+
+.form_donar {
+   text-align: center;
+   padding: 1rem;
+   border-radius: 10px;
+   background-color: rgba(34, 100, 185, 0.5);
+}
+
+.casillas_donar {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    width: 25rem;
+    height: 2.7rem;
+    outline: none;
+    margin: 10px;
+}
+
+.btn_enviar {
+    background-color:rgb(11, 54, 173) ;
+    color: white;
+    width: 600px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 8px;
+    border-color:rgb(11, 54, 173) ;
+}
+
+@media (max-width: 600px) { 
+
+    .mira h2 {
+        font-size: 2rem;
+    }
+
+    .container_icons_donaciones {
+        display: grid;
+        grid-template-columns: 40% 40%;
+        grid-template-rows: 50% 50%;
+        row-gap: 2rem;
+    }
+
+    #colaborar_header {
+        width: 30rem;
+    }
+
+    .txt_header_colab h1 {
+        font-size: 1.7rem;
+    }
+
+    .container_alias h3 {
+        font-size: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    #alias {
+        font-size: 2.1rem;
+        width: 20rem;
+    }
+
+    .titulo_form h3 {
+        font-size: 2rem;
+    }
+
+    .iconos_dona {
+        width: 6rem;
+    }
+
+    .form_donar {
+        width: 30rem;
+    }
+
+    .btn_enviar {
+        width: 15rem;
+    }
+
+}
+
+/* Fin página colaborar */
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(63, 59, 59);
+}
+
+.container_info {
+    width: 50%;
+    padding: 3rem;
+    padding-right: 0;
+}
+
+.container_form {
+    width: 50%;
+    margin: 2rem;
+}
+
+#logo_slogan {
+    background-color: aliceblue;
+}
+
+.p_footer {
+    margin-bottom: 0;
+    color: white;
+}
+
+#escribinos {
+
+    background-color: rgb(17, 122, 17);
+    color: aliceblue;
+}
+
+.form-label {
+    color: white;
+}
+
+#texto_textarea {
+    color: grey;
+}
+
+@media (max-width: 600px) {
+    .form_footer {
+        width: 18rem;
+    }
+}
+
+/* Fin del footer */
+
+    .error {
+        border : 2px solid red;
+    }
